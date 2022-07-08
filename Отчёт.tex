@@ -32,6 +32,7 @@
     \begin{tabular}[t]{c}
     }%
 }
+\newcommand\tab[1][1cm]{\hspace*{#1}}
 \begin{document}
  
 \begin{center}
@@ -91,8 +92,7 @@ SYNCHRONIZATION OF NEUROMORPHIC NETWORKS OF THE CLOSE WORLD FROM THE POINT OF VI
 \textbf{Dynamical systems on graphs and complexes}\\
 \textbf{Synchronization} — the fact of happening at the same time, or the act of making things happen at the same time\cite{litlink2}.\\
 \textbf{Simplicial synchronization} — a fundamental dynamical state observed in a wide variety of complex systems and capturing among other phenomena important aspects of brain dynamics and circadian rhythms\cite{litlink3}.\\
-\textbf{Synchronized neurons}\\
-\textbf{Kuramoto model}\\
+\textbf{Kuramoto model} is a stylized model that explains how coupled oscillators, that in absence of interactions would have different intrinsic frequencies, can start to follow a collective coherent motion when their coupling constant $\sigma$, measuring the strength of their interaction, is larger than a critical value $\sigma_c$ also called synchronization threshold\cite{litlink3}.\\
 \newpage
 \begin{center}
 \item\section {Introduction}
@@ -118,6 +118,14 @@ SYNCHRONIZATION OF NEUROMORPHIC NETWORKS OF THE CLOSE WORLD FROM THE POINT OF VI
 \section {The main part of the research report}
 \end{center}
 \textbf{Review and analysis of sources}\\
+\tab "Geometry, Topology and Simplicial Synchronization"\cite{litlink3} by Ana Paula Millán, Juan G. Restrepo, Joaquín J. Torres and Ginestra Bianconi is a review article fully covering the area under study. It defines "Simplicial synchronization", "Kuramoto model", "Graph Laplacian" and other important definitions. \\
+\tab In this article Ginestra Bianconi explores how the combinatorial and statistical properties of complex networks have effects on dynamics. Simplical complexes affect on higher-order dynamics through simplical geometry and topology. To research it two frameworks are used: Network Geometry with Flavor (NGF) and Graph Laplacian. Exactly, spectral dimension of NGF networks is used to measure the gemetry influence on dynamics.\\
+\tab The level of synchronization in the system is measured by the
+Kuramoto order parameter,
+\begin{center}
+$Z_0 = R_0e^{i\Theta} = \frac{1}{N} \sum_{j=1}^{N_[0]}e^{i\theta _j}$,
+\end{center}
+where $R_0$ and $\Theta$ are both real and where $0<=R_0<=1$ measures the overall coherence and $\Theta = \Theta (t)$ is the phase of global oscillations.
 ~\\
 \textbf{Selection of methods, algorithms, models for solving tasks}\\
 ~\\
@@ -140,7 +148,7 @@ SYNCHRONIZATION OF NEUROMORPHIC NETWORKS OF THE CLOSE WORLD FROM THE POINT OF VI
 \begin{thebibliography}{}
 \bibitem{litlink1} \textit{Paul E. Black and Paul J. Tanenbaum} "graph", in Dictionary of Algorithms and Data Structures [online], Paul E. Black, ed. 21 June 2021. (accessed 04.07.2022) Available from: https://www.nist.gov/dads/HTML/graph.html
 \bibitem{litlink2} \textit{Cambridge University Press} Meaning of synchronization in English. // Website dictionary.cambridge.org (https://dictionary.cambridge.org/dictionary/english/synchronization). Viewed: 04.07.2022
-\bibitem{litlink3} \textit{Ana Paula Millán, Juan G. Restrepo, Joaquín J. Torres and Ginestra Bianconi} Geometry, Topology and Simplicial Synchronization. P. 32
+\bibitem{litlink3} \textit{Ana Paula Millán, Juan G. Restrepo, Joaquín J. Torres and Ginestra Bianconi} Geometry, Topology and Simplicial Synchronization. P. 12
 \end{thebibliography}
 \end{center}
 \newpage
