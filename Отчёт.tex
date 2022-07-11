@@ -88,7 +88,16 @@ SYNCHRONIZATION OF NEUROMORPHIC NETWORKS OF THE CLOSE WORLD FROM THE POINT OF VI
 \newpage
 \section {Basic terms, definitions and abbreviations}
 \textbf{Graph} — a set of items connected by edges. A graph G can be defined as a pair (V,E), where V is a set of vertices, and E is a set of edges between the vertices  $E \subseteq \{(u,v) | u, v \in V\}$\cite{litlink1}.\\
-\textbf{Complex}\\
+\textbf{Simplicial complex} $K$ (sometimes called an abstract simplicial complex) consists of
+\begin{enumerate} 
+\item a set of objects, V(K), called vertices
+\item a set, $S(K)$, of finite non-empty subsets of $V(K)$, called simplices.
+\end{enumerate}
+such that the simplices satisfy the following conditions:
+\begin{enumerate} 
+\item if $\sigma\subset V(K)$ is a simplex and $\tau\subset\sigma, \tau\neq\emptyset$, then $\tau$ is also a simplex;
+\item every singleton {v}, $v\in V(K)$, is a simplex\cite{litlink4}.
+\end{enumerate}
 \textbf{Dynamical systems on graphs and complexes}\\
 \textbf{Synchronization} — the fact of happening at the same time, or the act of making things happen at the same time\cite{litlink2}.\\
 \textbf{Simplicial synchronization} — a fundamental dynamical state observed in a wide variety of complex systems and capturing among other phenomena important aspects of brain dynamics and circadian rhythms\cite{litlink3}.\\
@@ -118,7 +127,7 @@ SYNCHRONIZATION OF NEUROMORPHIC NETWORKS OF THE CLOSE WORLD FROM THE POINT OF VI
 \section {The main part of the research report}
 \end{center}
 \textbf{Review and analysis of sources}\\
-\tab "Geometry, Topology and Simplicial Synchronization"\cite{litlink3} by Ana Paula Millán, Juan G. Restrepo, Joaquín J. Torres and Ginestra Bianconi is a review article fully covering the area under study. It defines "Simplicial synchronization", "Kuramoto model", "Graph Laplacian" and other important definitions. \\
+\tab\textbf{"Geometry, Topology and Simplicial Synchronization"\cite{litlink3}} by Ana Paula Millán, Juan G. Restrepo, Joaquín J. Torres and Ginestra Bianconi is a review article fully covering the area under study. It defines "Simplicial synchronization", "Kuramoto model", "Graph Laplacian" and other important definitions. \\
 \tab In this article Ginestra Bianconi explores how the combinatorial and statistical properties of complex networks have effects on dynamics. Simplical complexes affect on higher-order dynamics through simplical geometry and topology. To research it two frameworks are used: Network Geometry with Flavor (NGF) and Graph Laplacian. Exactly, spectral dimension of NGF networks is used to measure the gemetry influence on dynamics.\\
 \tab The level of synchronization in the system is measured by the
 Kuramoto order parameter,
@@ -126,6 +135,14 @@ Kuramoto order parameter,
 $Z_0 = R_0e^{i\Theta} = \frac{1}{N} \sum_{j=1}^{N_[0]}e^{i\theta _j}$,
 \end{center}
 where $R_0$ and $\Theta$ are both real and where $0<=R_0<=1$ measures the overall coherence and $\Theta = \Theta (t)$ is the phase of global oscillations.
+\tab As the result of the research we have several formulas that can determine the level of syncronization of complexes with differtent geometry and topology.
+\begin{figure}[h]
+\center{\includegraphics[draft=false,width=1\linewidth]{Fig1}}
+\caption{Frustrated synchronization on NGF characterized by spatio-temporal fluctuations of the order parameter\cite{litlink3}.}
+\label{ris:image}
+\end{figure}\\
+\tab \textbf{"Higher-order simplicial synchronization of coupled topological signals"\cite{litlink5}} by Reza Ghorbanchian, Juan G. Restrepo, Joaquin J. Torresy, and Ginestra Bianconi shows the possible phase transitions that can occur when topological signals dened on nodes and links interact. This research is based on the mathematical framework of higher-order topological synchronization. For some reasons, in this work authours focus in particular on the coupled synchronization of topological signals dened on nodes and links.\\
+\tab Interestingly, in this research more mathematical frameworks has been chosen: models NL and NLT, Geometry with Flavor (NGF) and Kuramoto model for measuring the level of synchronization in the system.
 ~\\
 \textbf{Selection of methods, algorithms, models for solving tasks}\\
 ~\\
@@ -149,6 +166,8 @@ where $R_0$ and $\Theta$ are both real and where $0<=R_0<=1$ measures the overal
 \bibitem{litlink1} \textit{Paul E. Black and Paul J. Tanenbaum} "graph", in Dictionary of Algorithms and Data Structures [online], Paul E. Black, ed. 21 June 2021. (accessed 04.07.2022) Available from: https://www.nist.gov/dads/HTML/graph.html
 \bibitem{litlink2} \textit{Cambridge University Press} Meaning of synchronization in English. // Website dictionary.cambridge.org (https://dictionary.cambridge.org/dictionary/english/synchronization). Viewed: 04.07.2022
 \bibitem{litlink3} \textit{Ana Paula Millán, Juan G. Restrepo, Joaquín J. Torres and Ginestra Bianconi} Geometry, Topology and Simplicial Synchronization. P. 12
+\bibitem{litlink4} Simplicial complex. // Website ncatlab.org (https://ncatlab.org/nlab/show/simplicial+complex). Viewed: 09.07.2022
+\bibitem{litlink5} \textit{Reza Ghorbanchian, Juan G. Restrepo, Joaquin J. Torresy, and Ginestra Bianconi} Higher-order simplicial synchronization of coupled topological signals. // Website Arxiv.org (https://arxiv.org/abs/2011.00897). Viewed: 11.07.2022
 \end{thebibliography}
 \end{center}
 \newpage
