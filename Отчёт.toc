@@ -1,0 +1,8 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Abstract}{2}{}%
+\contentsline {section}{\numberline {2}Content}{3}{}%
+\contentsline {section}{\numberline {3}Basic terms, definitions and abbreviations}{4}{}%
+\contentsline {section}{\numberline {4}Introduction}{5}{}%
+\contentsline {section}{\numberline {5}The main part of the research report}{6}{}%
+\contentsline {section}{\numberline {6}Conclusion}{11}{}%
+\contentsline {section}{\numberline {7}Applications}{13}{}%
